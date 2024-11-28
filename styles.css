@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    color: #ced0d4;
+}
+
+a:visited {
+    color: #ced0d4;
+}
+
+
+
+.header-container {
+    display: flex;
+    height: 72px;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header-title {
+    margin-left: 10vw;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+    padding: 8px;
+    font-family: Roboto;
+}
+
+.header-links {
+    padding: 34px;
+    margin-right: 10vw;
+}
+
+.header-links a {
+    color: #ced0d4;
+    font-size: 14px;
+}
+
+.intro-container {
+    display: flex;
+    height: 280px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.intro-container > * {
+    flex-shrink: 0;
+}
+
+.intro-head {
+    font-size: 32px;
+    font-family: Roboto;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.intro-content {
+    font-family: Roboto;
+    color: #ced0d4;
+    font-size: 14px;
+    padding: 12px;
+    width: 22rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro-button {
+    padding: 6px;
+    width: 6rem;
+    border-radius: 0.5rem;
+    background-color:  #3882f6;
+    font-family: Roboto;
+    color: #f9faf8;
+    border: none;
+    transition-duration: .5s;
+    font-weight: bold;
+}
+
+.intro-button:hover {
+    background-color: #01ff23;
+}
+
+.intro-button:active {
+    background-color: #ff0101;
+}
+
+.intro-img {
+    width: 28rem;
+    height: 16rem;
+}
+
+.intro-img img {
+    height: 16rem;
+    width: 28rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px #1c2532;
+}
+
+
+.body-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.body-head {
+    padding: 12px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: Roboto;
+    color: #1f2937;
+}
+
+.body-images {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.child-image img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px #ececec;
+}
+
+.child-image p {
+    font-family: Roboto;
+    text-align: center;
+    word-break: break-word;
+    max-width: 12rem;
+    color: #1f2937;
+    font-size: 14px;
+}
+
+.child-image a{
+    color: #1f2937;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.child-image a:visited {
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.child-image a:hover {
+    word-break: keep-all;
+    font-size: 15px;
+    color: #3882f6;
+    font-weight: 600;
+}
+
+.body-quote {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 120px 54px 120px;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.quote-text {
+    margin: 0 auto 0 auto;
+    color: #1f2937;
+    font-family: 'Flama Light Italic', sans-serif;
+    font-size: 32px;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-family: 'Flama Light Italic', sans-serif;
+    font-weight: bold;
+}
+
+.body-ref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.ref-container {
+    background-color: #3882f6;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 12px 12px;
+    gap: 24px;
+    width: 28vw;
+}
+
+.ref-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ref-text > * {
+    color: #f9faf8;
+    font-family: Roboto;
+}
+
+.ref-text h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.ref-text p {
+    font-size: 12px;
+}
+
+.ref-button-container {
+    margin-right: auto;
+}
+
+.ref-button {
+    padding: 6px;
+    width: 6rem;
+    border-radius: 0.5rem;
+    background-color:  #3882f6;
+    font-family: Roboto;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    transition-duration: .5s;
+    font-weight: bold;
+}
+
+.ref-button:hover {
+    background-color: #01ff23;
+}
+
+.ref-button:active {
+    background-color: #ff0101;
+}
+
+.footer-container {
+    color: white;
+    display: flex;
+    height: 72px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container > * {
+    font-size: 14px;
+    font-family: Roboto;
+}
