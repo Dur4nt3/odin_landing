@@ -3,9 +3,11 @@
 
 This is the second project within the "Foundations" course of "The Odin Project" [^1].
 
-This project comes immediately after introducing "Flexbox" and it's main goal is creating a landing page using "Flexbox" [^2] [^3].
+This project comes immediately after introducing "Flexbox" and it's main goal is creating a landing page using "Flexbox".
 
 **Skills Demonstrated: Basic HTML, basic CSS, Flexbox.**
+
+**Webpage responsiveness: THIS PROJECT WILL NOT DISPLAY PROPERLY ON A MOBILE PHONE.** [^2] [^3]
 
 [^1]: The general design of the landing page was provided by "The Odin Project"; the implementation was done by me.
 
